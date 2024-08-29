@@ -1,12 +1,11 @@
 Group Name: Avengers Algorithm
 
 Group Members:
-1. Md. Masum Billah [21225103383]
+
+1. Md. Masum Billah [Team Leader]
 2. Shammi Athocho 
 3. Sifat Hasan Nahid
 4. Subir Boral
 5. Homayra Anta Afya
 
-Project Tittle : Laptop Price Predictor / Optical Character Recognition-OCR
-My name is Masum 
-Also Joarder
+Project Tittle : Laptop Price Predictor
