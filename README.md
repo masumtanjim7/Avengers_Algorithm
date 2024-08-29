@@ -6,3 +6,5 @@ Group Members:
 3. Sifat Hasan Nahid
 4. Subir Boral
 5. Homayra Anta Afya
+
+Project Name : Laptop Price Predictor 
