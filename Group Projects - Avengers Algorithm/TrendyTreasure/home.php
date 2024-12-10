@@ -35,8 +35,6 @@ include 'components/add_cart.php';
 
 <?php include 'components/user_header.php'; ?>
 
-
-
 <section class="hero">
 
    <div class="swiper hero-slider">
@@ -111,10 +109,6 @@ include 'components/add_cart.php';
    </div>
 
 </section>
-
-
-
-
 <section class="products">
 
    <h1 class="title">Latest Gift</h1>
@@ -150,7 +144,6 @@ include 'components/add_cart.php';
       ?>
 
    </div>
-
    <div class="more-btn">
       <a href="menu.php" class="btn frm1">veiw all</a>
    </div>

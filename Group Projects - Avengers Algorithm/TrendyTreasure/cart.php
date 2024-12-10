@@ -24,7 +24,6 @@ if(isset($_POST['delete_all'])){
    // header('location:cart.php');
    $message[] = 'deleted all from cart!';
 }
-
 if(isset($_POST['update_qty'])){
    $cart_id = $_POST['cart_id'];
    $qty = $_POST['qty'];
@@ -37,7 +36,6 @@ if(isset($_POST['update_qty'])){
 $grand_total = 0;
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
