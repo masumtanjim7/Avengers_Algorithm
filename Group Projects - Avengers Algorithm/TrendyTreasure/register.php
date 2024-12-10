@@ -55,7 +55,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>register</title>
+   <title>Register</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -73,7 +73,7 @@ if(isset($_POST['submit'])){
 <section class="form-container" style="background-color: lightcyan;">
 
    <form action="" method="post" class="frm">
-      <h3>register now</h3>
+      <h3>Register now</h3>
       <input type="text" name="name" required placeholder="Enter your name" class="box frm1" maxlength="50">
       <input type="email" name="email" required placeholder="Enter your email" class="box frm1" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="number" name="number" required placeholder="Enter your number" class="box frm1" min="0" max="9999999999" maxlength="10">
@@ -84,25 +84,7 @@ if(isset($_POST['submit'])){
    </form>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
 <?php include 'components/footer.php'; ?>
-
-
-
-
-
-
-
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
