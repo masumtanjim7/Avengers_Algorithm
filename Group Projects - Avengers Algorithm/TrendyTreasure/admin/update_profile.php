@@ -74,7 +74,6 @@ if(isset($_POST['submit'])){
 
 </head>
 <body>
-
 <?php include '../components/admin_header.php' ?>
 
 <!-- admin profile update section starts  -->
@@ -93,12 +92,6 @@ if(isset($_POST['submit'])){
 </section>
 
 <!-- admin profile update section ends -->
-
-
-
-
-
-
 
 
 
