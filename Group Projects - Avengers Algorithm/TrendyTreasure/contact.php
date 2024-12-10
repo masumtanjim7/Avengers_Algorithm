@@ -1,5 +1,4 @@
 <?php
-
 include 'components/connect.php';
 
 session_start();
@@ -53,8 +52,7 @@ if(isset($_POST['send'])){
    <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
-   
+<body>  
 <!-- header section starts  -->
 <?php include 'components/user_header.php'; ?>
 <!-- header section ends -->
@@ -78,19 +76,11 @@ if(isset($_POST['send'])){
          <textarea name="msg" class="box" required placeholder="Enter Your Message" maxlength="500" cols="30" rows="10"></textarea>
          <input type="submit" value="Send Message" name="send" class="btn frm1">
       </form>
-
    </div>
 
 </section>
 
 <!-- contact section ends -->
-
-
-
-
-
-
-
 
 
 
