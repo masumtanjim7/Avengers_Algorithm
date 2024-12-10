@@ -11,7 +11,6 @@ if(isset($_SESSION['user_id'])){
 };
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +35,7 @@ if(isset($_SESSION['user_id'])){
 <!-- header section ends -->
 
 <div class="heading"> 
-   <h3>about us</h3>
+   <h3>About us</h3>
    <p><a href="home.php">Home</a> <span> / About</span></p>
 </div>
 
@@ -51,7 +50,7 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="content">
-         <h3>why Choose Us?</h3>
+         <h3>Why Choose Us?</h3>
          <p>TrendyTreasure is your one-stop shop for stylish, practical, and affordable products tailored to students, doctors, lawyers, and corporate professionals. We prioritize quality, offer budget-friendly pricing, and ensure a seamless shopping experience. Trusted by professionals, our user-friendly platform and dedicated customer support make us the ultimate destination for all your needs. Discover the treasure you deserve with TrendyTreasure!</p>
          <a href="menu.php" class="btn frm1">Our Products</a>
       </div>
