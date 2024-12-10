@@ -45,7 +45,7 @@ if(!isset($admin_id)){
       <a href="update_profile.php" class="btn">update profile</a>
    </div>
 
-   <div class="box">
+   <div class="box1">
       <?php
          $total_pendings = 0;
          $select_pendings = $conn->prepare("SELECT * FROM `orders` WHERE payment_status = ?");
@@ -59,7 +59,7 @@ if(!isset($admin_id)){
       <a href="placed_orders.php" class="btn">see orders</a>
    </div>
 
-   <div class="box">
+   <div class="box2">
       <?php
          $total_completes = 0;
          $select_completes = $conn->prepare("SELECT * FROM `orders` WHERE payment_status = ?");
@@ -73,7 +73,7 @@ if(!isset($admin_id)){
       <a href="placed_orders.php" class="btn">see orders</a>
    </div>
 
-   <div class="box">
+   <div class="box3">
       <?php
          $select_orders = $conn->prepare("SELECT * FROM `orders`");
          $select_orders->execute();
@@ -84,7 +84,7 @@ if(!isset($admin_id)){
       <a href="placed_orders.php" class="btn">see orders</a>
    </div>
 
-   <div class="box">
+   <div class="box4">
       <?php
          $select_products = $conn->prepare("SELECT * FROM `products`");
          $select_products->execute();
@@ -95,7 +95,7 @@ if(!isset($admin_id)){
       <a href="products.php" class="btn">see products</a>
    </div>
 
-   <div class="box">
+   <div class="box5">
       <?php
          $select_users = $conn->prepare("SELECT * FROM `users`");
          $select_users->execute();
@@ -106,7 +106,7 @@ if(!isset($admin_id)){
       <a href="users_accounts.php" class="btn">see users</a>
    </div>
 
-   <div class="box">
+   <div class="box6">
       <?php
          $select_admins = $conn->prepare("SELECT * FROM `admin`");
          $select_admins->execute();
@@ -117,7 +117,7 @@ if(!isset($admin_id)){
       <a href="admin_accounts.php" class="btn">see admins</a>
    </div>
 
-   <div class="box">
+   <div class="box7">
       <?php
          $select_messages = $conn->prepare("SELECT * FROM `messages`");
          $select_messages->execute();
