@@ -28,11 +28,11 @@ if(isset($_POST['submit'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>update address</title>
-
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
@@ -42,12 +42,14 @@ if(isset($_POST['submit'])){
 </head>
 <body>
    
+
+
 <?php include 'components/user_header.php' ?>
 
 <section class="form-container" style="background-color: lightcyan;">
 
    <form action="" method="post" class="frm1">
-      <h3>your address</h3>
+      <h3>Your Address</h3>
       <input type="text" class="box frm1" placeholder="Flat No." required maxlength="50" name="flat">
       <input type="text" class="box frm1 frm1" placeholder="Building No." required maxlength="50" name="building">
       <input type="text" class="box frm1" placeholder="Area Name" required maxlength="50" name="area">
