@@ -63,16 +63,13 @@ if(isset($_POST['send'])){
    <h3>contact us</h3>
    <p><a href="home.php">Home</a> <span> / Contact</span></p>
 </div>
-
 <!-- contact section starts  -->
-
 <section class="contact" style="background-color: lightcyan; margin-top:20px;">
 
    <div class="row">
       <div class="image">
          <img src="images/contact-img.svg" alt="">
       </div>
-
       <form action="" method="post" class="frm">
          <h3>Tell Us Something!</h3>
          <input type="text" name="name" maxlength="50" class="box frm1" placeholder="Enter Your Name" required>
