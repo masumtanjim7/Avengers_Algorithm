@@ -150,7 +150,6 @@ if(isset($_SESSION['user_id'])){
 <script src="js/script.js"></script>
 
 <script>
-
 var swiper = new Swiper(".reviews-slider", {
    loop:true,
    grabCursor: true,
