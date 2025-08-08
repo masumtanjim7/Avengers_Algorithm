@@ -217,15 +217,12 @@ include 'components/add_cart.php';
       ?>
 
    </div>
-
    <div class="more-btn">
       <a href="menu.php" class="btn frm1">Veiw all</a>
    </div>
 
 </section>
-
 <section class="category">
-
    <h1 class="title">Purchase Channel</h1>
 
    <div class="box-container">
